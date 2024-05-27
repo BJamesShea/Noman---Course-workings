@@ -1,0 +1,147 @@
+Data types in other languages:
+
+C family: int x;  // Only store integers 
+char y; // Only character can be stored
+
+var
+let
+const
+
+Data Types:
+
+1. Number: floating point numbers, integers, floats
+2. String: A sequence of Unicode characters " " ' '
+3. Boolean: True or False
+4. Object: Functions, Arrays, Date and more
+5. Null: A value that means "this is literally nothing" vs undefined   var x=null;
+6. Undefined: A special value that indicates a value has never been defined
+
+
+
+                            DATA TYPE  VALUE
+let s1 = "some text";    -  String     value: "some text"
+let s2 = 'some text';    -  String     value: "some text"
+let s3 = '134';          -  String     value: "134"
+let s4 = '134' + 4;      -  String     value: "1344" (concatenation)
+let n1 =  134;           -  Number     value: 134
+let n2 =  134.22;        -  Number     value: 134.22
+let b1 =  true;          -  Boolean    value: true
+let b1 =  false;         -  Boolean    value: false
+let b3 =  !b2;           -  Boolean    value: true
+let c  =                 -  Undefined  value: Undefined
+let d  =  null;          -  Object     value: null
+
+Operators: 
++, -, *, /, %
+
+
++    -  Addition
+-    -  Subtraction
+*    -  Multiplication
+**   -  Exponenatiation
+/    -  Divison
+%    -  Modulus (Division remainder)
+++   -  Increment
+--   -  Decrement 
+
+Post Inrecement means make Increment after using previous values
+Pre Increment means make Increment and then use it 
+
+= Assignment operator    let x = 10;
+== Equality operator 
+=== Scrict equality?  coercion: automatic conversion of data type from one to other
+
+
+Binary operators: that require two operants like +, - , *, /, %
+
+Unary operators: ++, --, ! 
+
+x+;  // wrong
+x++; // right
+
+
+Ternary Operator: (?:) short form of 'if else'
+condition ? value_if_true; value_if_false;
+
+Loops:
+
+for loop:
+
+for(var i = 0; i < 1000; i++){
+    console.log("I will never do it again");
+    
+}
+
+for(initialization; condition; Increment/Decrement) {
+    
+}
+
+Functions in JavaScript:
+    A function is a subprogram, or a smaller portion of code that can be called (invoked) by another part of your program, another function, or by the enviornment in respone to some user or device action (clicking a button, network request etc)
+
+    Syntax of functions:
+        functions can take values(arguments) and may return a value.
+            add     bad not a function
+            add( )  good
+
+            void juicer(apples)
+            c add(a,b)
+    Types of functions in Javascript:
+    i) User defind functions
+    ii) Pre defined functions
+
+    I) User defined functions: 
+        functions defined by us (as users)
+        i) Function Declarations
+        ii) Function Expressions
+        iii) Arrow Functions
+
+        Function Declarations:
+
+        function noop(){
+
+        }
+
+
+        function square(n){
+            returns n*n;
+        }
+
+        
+        function add(a,b){
+            return a+b;
+        }
+
+
+        Function Expressions: [ONLY IN JS]
+
+        let noop = function(){ }  // 'anonymous functions'
+
+        let square = function(n)(return n*n);
+
+        let add = function(a,b)(return a + b);
+
+        noop();
+        square(5);
+        add(3,5);
+
+
+        What is an expression? An expression is something that evaluates to a value
+
+        x = 5 + 3; NOT AN EXPRESSION, EQUATION
+        5 + 3 Expressions   
+        x  Expression
+
+
+        Arrow Functions:
+
+        let noop = ()=>{};
+        let square = (n) =>{
+            return n*n;
+        }
+
+        let add = (a,b) => {
+            return a + b;
+        }
+
+        Parameters and Arguments:

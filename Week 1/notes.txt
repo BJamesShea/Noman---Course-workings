@@ -1,0 +1,77 @@
+Lecture 0: April 30th
+
+ASCII: American Standard Code for Information Interchange
+
+65 - A
+66 - B
+
+97 - a
+
+
+Three ways to run Javascript!
+1. Using Terminal - We go into the folder where the file exists, and then run it by using command 'node filename.js'.
+
+2. Using browser - attach the script by using <script> element and see the output in the console of the browser.
+
+3. REPL - Read Evaluate Process Loop:
+        i) Browser REPL
+        ii) Terminal REPL
+
+Introduction to JavaScript! 
+        Interpreted JIT(Just in Time compilation), light-weight meant to be embedded in host enviornment for example web browsers
+
+        JavaScript syntax looks similar to C, C++. C Language is generally reffered as 'mother of modern programming languages.' Though it seems similar to C, it is quite different from C in philosphy. 
+
+        JavaScript (mid 90s) at that time JS was actually ONLY for client side scripts.
+                Shifted to server side scripts to the console based applications
+                NODE JS has made this possible
+
+        Client ----> Server
+
+        Static Websites:
+        When client asks for a website and server sends back the copy of the website (and do not do any processing of its own) Client recieves website and executes it (Scripts are client side scripts) Showing same content to every user.
+
+        Dynamic Website:
+        When clients asks for a website, the server runs some script that may or may not interact with a database or with some sensors etc, and produces a result after running the script (Server side script) And sends back the result to the client. Showing different content to every user. (Facebook) 
+
+
+JavaScript Syntax:
+
+1. JavaScript is case sensitive: x, X treated differently!
+        customerName, customerName
+
+2. camelCase naming in JavaScript! PascalCase, snake_case, kebab-case
+
+3. Semi colons are optional, highly recomended. Semi colon is called "Statement Terminator";
+
+4. Comments in JS:
+// This is called single Comments
+/* this is multiline Comments
+
+*/
+
+        /* Need name, description, assignment, date, on all QAP and finals. */
+        <!-- comments --> HTML Comment
+
+5. Statements in JS: A program is series of statements in JS. A statement is a single-line of instruction made up of objects, expressions, variables and events, etc
+
+6. Block statement: 
+        { 
+
+        }       
+
+        if(x>0)
+        {
+
+        }else
+        {
+
+        }
+
+7. Functions in JS:
+        Primary building block of JS programs. Different from Python!
+
+8. Variables in JS:
+        var
+        let 
+        const 
