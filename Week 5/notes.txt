@@ -1,0 +1,16 @@
+Prototypal Inheritance in Javascript:
+
+let a = 10;
+let b = [1, 3,4] // array data type
+0: 1
+1: 3
+2: 4
+
+let b = [0:1, 1:3, 2:4]; // wrong
+b[0] = 1;
+let c = { }; // Object data type.. Empty object literal
+
+let ibj = {course: 'JacaScript;);
+
+console.log(obj["course"]); // Javascript
+let obj2 = {course: "Javascript", college: "Keyin", semester:"two"};
